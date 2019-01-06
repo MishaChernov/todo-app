@@ -1,0 +1,23 @@
+.toDoItem {
+    display: block;
+    padding: 15px 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid rgb(238, 238, 238);
+    font-weight: 500;
+    cursor: pointer;
+    transition-duration: 300ms;
+}
+
+.toDoItem--active {
+    text-decoration: line-through;
+}
+
+.toDoItem--important {
+    color: tomato;
+    font-weight: 800;
+}
+
+.toDoItem:hover {
+    border: 1px solid bisque;
+}

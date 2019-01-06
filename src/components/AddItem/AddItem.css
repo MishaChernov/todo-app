@@ -1,0 +1,46 @@
+.addItem {
+    position: relative;
+    display: block;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 40px;
+    box-sizing: border-box;
+    flex: 2;
+}
+
+.addItem input {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    padding-right: 120px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    outline: none;
+    border: 2px solid rgb(238, 238, 238);
+}
+
+.addItem button {
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+    display: block;
+    height: 100%;
+    width: 100px;
+    border: none;
+    background: none;
+    background-color: pink;
+    border: 2px solid rgb(238, 238, 238);
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.addItem button:hover {
+    background-color: plum;
+}
+
+
+.addItem input:focus {
+    border: 2px solid lightskyblue;
+}

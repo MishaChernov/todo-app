@@ -1,0 +1,53 @@
+.toDoList {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.toDoList__item {
+    position: relative;
+}
+
+.toDoList__buttons {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+.toDoList__button {
+    display: inline-block;
+    margin: 0 5px;
+    width: 30px;
+    height: 30px;
+    outline: none;
+    border: none;
+    background-size: 80%;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 0;
+    cursor: pointer;
+    transition-duration: 300ms;
+}
+
+.toDoList__button--delete {
+    border: 2px solid green;
+    background-image: url('../../assets/img/basket.svg');
+}
+
+.toDoList__button--delete:hover {
+    background-color: green;
+}
+
+.toDoList__button--important {
+    border: 2px solid orange;
+    background-image: url('../../assets/img/important.svg');
+}
+
+.toDoList__button--important:hover {
+    background-color: orange;
+}
